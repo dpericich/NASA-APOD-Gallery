@@ -9,3 +9,23 @@ html {
   font-size: 62.5%;
   background-color: #343435;
   color: #eceeef; }
+
+.date-input__input {
+  color: #003B59;
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin-top: 2rem;
+  outline: none; }
+
+.date-entry__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.date-entry__title {
+  text-transform: uppercase;
+  font-size: 7rem;
+  text-shadow: #003B59 2px 2px; }
