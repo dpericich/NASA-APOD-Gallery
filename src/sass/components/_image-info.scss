@@ -1,0 +1,25 @@
+.image-info {
+    margin-right: 10rem;
+
+
+    &__title {
+        display: flex;
+        font-size: 5rem;
+        margin-bottom: 1rem;
+
+        &--text {
+
+        }
+
+        &--date {
+
+        }
+
+    }
+
+    &__description {
+        width: 115rem;
+        font-size: 2rem;
+
+    }
+}
