@@ -1,0 +1,5 @@
+export const actionTypes = {
+    DATE_STRING : 'DATE_STRING',
+    IMAGES_FETCHED: 'IMAGES_FETCHED',
+    LOADING_IMAGES: 'LOADING_IMAGES',
+}
