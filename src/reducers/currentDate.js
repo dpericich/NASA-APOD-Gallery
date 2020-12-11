@@ -1,9 +1,9 @@
-import {actionTypes} from '../actions'
+import {actionTypes} from '../actions/ActionTypes'
 
 /**
  * @function currentDate - reduce that accepts current state and action to possibly update store state
- * @param (object) - current state of store, or default if it's only been initialized
  * @param (object) - passed to the reducer from store.dispatch. Holds action type and optional payload
+ * @param (object) - current state of store, or default if it's only been initialized
  * @return (object) - new copy of the store, different if the action type matched the reducer
  */
 
