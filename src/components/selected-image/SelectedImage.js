@@ -1,11 +1,14 @@
 import React from 'react';
+import {connect} from 'react-redux';
 
-const SelectedImage = () => {
+const SelectedImage = (props) => {
     return(
-        <div>
-            I am where the main image will go.
-        </div>
+        <img src={props.imgData.url} alt={props.imgData.title} className="selected-image"/>
     )
 }
 
-export const SelectedImage;
+const mapStateToProps = (state) => {
+    return {imgData: state.img.spaceImg}
+}
+
+export default connect(mapStateToProps, null)(SelectedImage);
