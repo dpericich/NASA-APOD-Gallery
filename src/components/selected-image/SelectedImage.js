@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 
 const SelectedImage = (props) => {
-    if (props.loading) {
+    if (!props.imgData) {
         return <h2>Loading...</h2>;
     } else {
         return(
